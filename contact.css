@@ -154,13 +154,15 @@ input[type="text"]{
     
 }
 input[name="username"]{
+  position:relative;
+    left:30%;
     border:1px solid black;
     
 }
 
 input[name="email"]{
     position:relative;
-    left:41px;
+    left:30%;
     border:1px solid black;
     
     
@@ -168,7 +170,7 @@ input[name="email"]{
 
 input[name="subject"]{
     position:relative;
-    left:31px;
+    left:30%;
     border:1px solid black;
     
     
@@ -180,7 +182,7 @@ input[name="username"]:hover{
     
     background:red;
     opacity: 0.2;
-   width:180px;
+   width:300px;
    transition: 1s;
     
     
@@ -191,7 +193,7 @@ input[name="email"]:hover{
     
     background:red;
     opacity: 0.2;
-   width:180px;
+   width: 300px;
    transition: 1s;
     
 }
@@ -201,7 +203,7 @@ input[name="subject"]:hover{
   
     background:red;
     opacity: 0.2;
-   width:180px;
+   width:300px;
    transition: 1s;
     
  
@@ -238,19 +240,19 @@ input[name="username"],input[name="email"],input[name="subject"]{
     height:400px;
     width:100%;
 }
-.label-form{
-    margin:10px;
-}
-.form-all{
-    padding:5px;
-    transform: translate(20%, 10px);
-}
-.hr-1{
-    position:relative;
-    top:20px;
-}
 .formel h2{
-    transform: translate(50%, 10px);
+    transform: translate(0%, 10px);
+}
+.btn{
+  background: rgb(0, 191, 255);
+  color: white;
+  border-radius: 5px;
+  transform: translate(575px, 50px);
+  padding: 15px;
+}
+
+.btn a{
+  text-decoration: none;
 }
 
 .footer{
@@ -317,7 +319,7 @@ input[name="username"],input[name="email"],input[name="subject"]{
     list-style: none;
     color: white;
 }
-.footer .footer-content .links ul a:hover{
+.footer .footer-section .links ul a:hover{
     color: white;
     margin-left: 15px;
     transition: all .3s;
